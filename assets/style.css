@@ -105,9 +105,39 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link {
 	color: #000
+
+	
 }
+/*Photo Caméra*/
+#contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px; /* Espacement entre les éléments */
+    margin: 20px;
+}
+
+.form-container {
+    flex: 1; /* Prend l'espace disponible */
+    max-width: 500px; /* Limite la largeur du formulaire */
+}
+
+.image-container {
+    flex: 1; /* Prend l'espace restant */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 35%; /* Adapte l'image à la taille du conteneur */
+    height: auto; /* Garde les proportions */
+    border-radius: 8px; /* Coins arrondis pour un effet esthétique */
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -218,7 +248,7 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
-	width: 70%;
+	width: 100%;
 	align-items: flex-start;
 }
 
